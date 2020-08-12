@@ -1,4 +1,4 @@
-package Fizzbuzz
+package fizzbuzz
 
 import (
 	"fmt"
@@ -19,7 +19,7 @@ import (
 //   4
 //   buzz
 
-func Fizzbuzz(n int) (result []string) {
+func fizzbuzz(n int) (result []string) {
 
 	for i := 1; i <= n; i++ {
 		x := ""
